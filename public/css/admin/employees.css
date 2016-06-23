@@ -1,0 +1,133 @@
+.normalMode {
+    display: none;
+}
+.editMode {
+    display: block;
+}
+a {
+    cursor: pointer;
+}
+
+h1 .additional {
+    font-size: 18px;
+    color: #999999;
+}
+h2 .additional {
+    font-size: 16px;
+    color: #999999;
+}
+h3 .additional {
+    font-size: 14px;
+    color: #999999;
+}
+
+.employeeDetails h4 input,
+.employeeDetails h5 select,
+.employeeDetails select.chooseSpecialities
+{
+    width: 167px;
+    padding: 3px;
+    margin: 0 0 3px 0;
+    font-weight: normal;
+}
+
+.employeeDetails h5 select {
+    width: 167px;
+    padding: 5px;
+    margin: 0;
+}
+
+.employeeDetails select.chooseSpecialities {
+    width: 167px;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.error {
+    display: none;
+    padding: 20px;
+}
+.success {
+    display: none;
+    padding: 20px;
+}
+
+.photo {
+    padding: 10px;
+}
+#photo {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+#avatar {
+    /*position: absolute;*/
+    /*right: 25px;*/
+    /*top: 65px;*/
+    height: 100px;
+}
+.photoThumb {
+    display: block;
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+    float: right;
+}
+#fileDetails {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sortable {
+    list-style: none;
+    padding: 0;
+}
+
+#sortable li {
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    overflow: hidden;
+}
+#sortable li.ui-state-highlight {
+    background: #e8e8e8;
+}
+
+#sortable .imageContainer {
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+#sortable li a {
+    display: block;
+    height: 95px;
+    overflow: hidden;
+}
+#sortable li a img {
+    margin: 5px auto;
+    display: block;
+}
+
+#sortable li span.controls {
+    opacity: 0;
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    transition: 400ms;
+}
+
+#sortable li:hover span.controls,
+#sortable li.active span.controls {
+    opacity: 1;
+}
+
+.additional {
+    font-size: 11px;
+    color: #999999;
+}

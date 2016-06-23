@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script>
+        $(function(){
+            $('.start').click(function(){
+                var iframe$ = $('#iframe').attr('src', $('#url').val());
+                $('.output').text( iframe$.children().html() );
+            });
+        });
+    </script>
+</head>
+<body>
+
+<iframe src="//dmitri.vput.ru/widgets/realties/?lang=ru&template=widget-white-offers-790x290&partnerId=570" width="790" height="300" scrolling="no" frameborder="0"></iframe>
+
+</body>
+</html>

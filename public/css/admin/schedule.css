@@ -1,0 +1,270 @@
+.normalMode {
+    display: none;
+}
+.editMode {
+    display: block;
+}
+a {
+    cursor: pointer;
+}
+
+h1 .additional {
+    font-size: 18px;
+    color: #999999;
+}
+h2 .additional {
+    font-size: 16px;
+    color: #999999;
+}
+h3 .additional {
+    font-size: 14px;
+    color: #999999;
+}
+
+.employeeDetails h4 input,
+.employeeDetails h5 select,
+.employeeDetails select.chooseSpecialities
+{
+    width: 167px;
+    padding: 3px;
+    margin: 0 0 3px 0;
+    font-weight: normal;
+}
+
+.employeeDetails h5 select {
+    width: 167px;
+    padding: 5px;
+    margin: 0;
+}
+
+.employeeDetails select.chooseSpecialities {
+    width: 167px;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.error {
+    display: none;
+    padding: 20px;
+}
+.success {
+    display: none;
+    padding: 20px;
+}
+
+.photo {
+    padding: 10px;
+}
+#photo {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+#avatar {
+    /*position: absolute;*/
+    /*right: 25px;*/
+    /*top: 65px;*/
+    height: 100px;
+}
+.photoThumb {
+    display: block;
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+    float: right;
+}
+#fileDetails {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sortable {
+    list-style: none;
+    padding: 0;
+}
+
+#sortable li {
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    overflow: hidden;
+}
+#sortable li.ui-state-highlight {
+    background: #e8e8e8;
+}
+
+#sortable .imageContainer {
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+#sortable li a {
+    display: block;
+    height: 95px;
+    overflow: hidden;
+}
+#sortable li a img {
+    margin: 5px auto;
+    display: block;
+}
+
+#sortable li span.controls {
+    opacity: 0;
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    transition: 400ms;
+}
+
+#sortable li:hover span.controls,
+#sortable li.active span.controls {
+    opacity: 1;
+}
+
+.additional {
+    font-size: 11px;
+    color: #999999;
+}
+.table .doctor {
+    min-width: 220px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.table .patient {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.table .patient .details {
+    display: none;
+}
+.table .patient.disabled {
+    background-color: #f4f4f4;
+    border-top-color: #fcfcfc;
+}
+
+.table {
+    border-bottom: 1px solid #dddddd;
+}
+
+.schedule-date-controls {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.schedule-date-controls h2.date {
+    padding: 0;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.schedule-date-controls .additional {
+    display: block;
+}
+
+.schedule-date-controls .next {
+    display: block;
+    margin: 10px auto;
+    width: 117px;
+    opacity: .4;
+    transition: 300ms;
+}
+.schedule-date-controls .next:hover {
+    opacity: 1;
+}
+
+.schedule-date-controls .prev {
+    display: block;
+    margin: 10px auto;
+    width: 117px;
+    opacity: .4;
+    transition: 300ms;
+}
+.schedule-date-controls .prev:hover {
+    opacity: 1;
+}
+.table .patient .patient-controls {
+    margin-top: 4px;
+}
+
+.found-container {
+    margin-bottom: 20px;
+}
+.found-container .found-list {
+    overflow-y: auto;
+}
+.found-container .found-list tr.active,
+.found-container .found-list tr.active td{
+    background-color: rgb(226, 226, 226);
+}
+
+.found-container .found-list.phone-list {
+    maix-height: 160px;
+}
+.found-container.newContainer .found-list {
+    height: auto;
+}
+
+.found-container .found-list .disabled,
+.found-container .found-list .selected .selectPatient{
+    display: none;
+}
+.found-container .found-list .selected .disabled,
+.found-container .found-list .selectPatient {
+    display: block;
+}
+
+.new-visit-form .clinic {
+    margin-top: -15px;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.patientRow {
+    transition: 300ms;
+}
+
+.patientRow.selected td {
+    background: #ebebeb;
+}
+
+.new-visit-form .patient .patientName,
+.new-visit-form .patient .email,
+.new-visit-form .patient .phone {
+    color: #000;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 6px 15px;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.new-visit-form .patient .phone.undefined,
+.new-visit-form .patient .email.undefined {
+    padding: 10px;
+    font-size: 11px;
+    line-height: 11px;
+    color: #A0A0A0;
+}
+
+.new-visit-form .intl-tel-input {
+    width: 100%;
+}
+
+.new-visit-form .help-block {
+    color: #943224;
+}
